@@ -21,8 +21,8 @@ site:
         binderhub_url: https://mybinder.org
         notebook_interface: jupyterlab
 
-      thebe: true
+        thebe: true
 
-      thebe_config:
-        repository_url: https://github.com/alux-teaching/jupyter-book-example
-        repository_branch: main
+        thebe_config:
+          repository_url: https://github.com/alux-teaching/jupyter-book-example
+          repository_branch: main
