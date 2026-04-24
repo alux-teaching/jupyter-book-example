@@ -1,21 +1,21 @@
-# Introduction
+---
+title: Willkommen
+---
 
-I am a book about ... something! Wikipedia has [information about books](wiki:book): hover over the link for more information.
+# Mein interaktives Python-Buch
 
-% An admonition containing a note
-:::{note}
-Books are usually written on paper ... But Jupyter Book can create _websites_!
-:::
+Dieses Buch enthält **ausführbare Python-Code-Zellen**, die du direkt im Browser
+starten und bearbeiten kannst.
 
-If you sold 100 books at \$10 per book, you'd have \$1000 dollars according to [](#eq:book). If instead you publish your Jupyter Book to the web for free, you'd have \$0 dollars!
+## So nutzt du die Interaktivität
 
-% An arbitrary math equation
-:::{math}
-:name: eq:book
+1. Klicke auf das **⚡ Power-Symbol** oben rechts auf einer Seite
+2. Warte kurz, bis Binder den Jupyter-Server gestartet hat (~30–60 Sekunden)
+3. Sobald das **Kontrollpanel** oben erscheint, sind alle Zellen ausführbar
+4. Du kannst den Code **bearbeiten** und mit dem **▶ Play-Button** neu ausführen
+5. Mit **"Launch Jupyter Server"** öffnest du das vollständige JupyterLab-Interface
 
-x \times y = z
-:::
+## Inhalte
 
-```{code-cell} python
-print("Hello Binder 🚀")
-```
+- [Grundlagen](notebooks/grundlagen.ipynb) — Variablen, Listen, Schleifen
+- [Visualisierung](notebooks/visualisierung.ipynb) — Plots mit Matplotlib & Pandas

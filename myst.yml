@@ -1,27 +1,23 @@
 version: 1
 project:
-  jupyter: True
-  id: 4da9cb15-177c-41f5-8c4e-6a24b4e87eab
-  title: an example jupyter book
-  description: a collection of files that build up a book
-  keywords:
-    - jupyter-book
-    - something-else
+  title: Mein interaktives Buch
   authors:
-    - name: captain jupyter
-  github: captain-jupyter/my-book
+    - name: Dein Name
+  # Ersetze mit deinem GitHub-Repo (WICHTIG für Binder)
+  github: https://github.com/alux-teaching/jupyter-book-example
+  # Binder: startet einen Cloud-Kernel aus deinem GitHub-Repo
+  jupyter:
+    binder:
+      repo: alux-teaching/jupyter-book-example
+      ref: main
+      url: https://mybinder.org
   toc:
     - file: intro.md
-
+    - title: Notebooks
+      children:
+        - file: notebooks/grundlagen.ipynb
+        - file: notebooks/visualisierung.ipynb
 site:
   template: book-theme
   options:
-    launch_buttons:
-      binderhub_url: https://mybinder.org
-      notebook_interface: jupyterlab
-
-    thebe: true
-
-    thebe_config:
-      repository_url: https://github.com/alux-teaching/jupyter-book-example
-      repository_branch: main
+    logo: logo.png
