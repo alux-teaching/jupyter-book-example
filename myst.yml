@@ -19,3 +19,4 @@ project:
         - file: notebooks/visualisierung.ipynb
 site:
   template: book-theme
+  base_url: /jupyter-book-example/
