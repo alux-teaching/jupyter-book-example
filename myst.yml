@@ -19,5 +19,3 @@ project:
         - file: notebooks/visualisierung.ipynb
 site:
   template: book-theme
-  options:
-    logo: logo.png
